@@ -30,19 +30,39 @@ const Footer = () => {
           </div>
 
           <div className="flex-1 md:text-right">
-            <p className="pb-4">Our Story</p>
-            <p className="pb-4">Get in Touch</p>
-            <p className="pb-4">Our Privacy Commitment</p>
-            <p className="pb-4">Terms of service</p>
-            <p>Customer Assistance</p>
+            <Link href="/our-story" className="block pb-4">
+              Our Story
+            </Link>
+            <Link href="/contact" className="block pb-4">
+              Get in Touch
+            </Link>
+            <Link href="/our-privacy-commitment" className="block pb-4">
+              Our Privacy Commitment
+            </Link>
+            <Link href="/terms-of-service" className="block pb-4">
+              Terms of Service
+            </Link>
+            <Link href="/customer-assistance" className="block">
+              Customer Assistance
+            </Link>
           </div>
 
           <div className="flex-1 md:text-right">
-            <p className="pb-4">Dining Experience</p>
-            <p className="pb-4">Wellness</p>
-            <p className="pb-4">Fitness</p>
-            <p className="pb-4">Sports</p>
-            <p>Events</p>
+            <Link href="/dining-experience" className="block pb-4">
+              Dining Experience
+            </Link>
+            <Link href="/wellness" className="block pb-4">
+              Wellness
+            </Link>
+            <Link href="/fitness" className="block pb-4">
+              Fitness
+            </Link>
+            <Link href="/sports" className="block pb-4">
+              Sports
+            </Link>
+            <Link href="/events" className="block">
+              Events
+            </Link>
           </div>
         </div>
       </div>
